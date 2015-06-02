@@ -60,6 +60,78 @@ function work_post_type() {
 	// adding the function to the Wordpress init
 	add_action( 'init', 'work_post_type');
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_project-photos',
+		'title' => 'Project Photos',
+		'fields' => array (
+			array (
+				'key' => 'field_556c26a96a3de',
+				'label' => 'First Image',
+				'name' => 'first_image',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556c26e16a3df',
+				'label' => 'Second Image',
+				'name' => 'second_image',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556c26f36a3e0',
+				'label' => 'Third Image',
+				'name' => 'third_image',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556c26fd6a3e1',
+				'label' => 'Fourth Image',
+				'name' => 'fourth_image',
+				'type' => 'image',
+				'save_format' => 'object',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+			array (
+				'key' => 'field_556c27066a3e2',
+				'label' => 'Fifth Image',
+				'name' => 'fifth_image',
+				'type' => 'image',
+				'save_format' => 'url',
+				'preview_size' => 'thumbnail',
+				'library' => 'all',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'work',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'acf_after_title',
+			'layout' => 'default',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
 
 
 
