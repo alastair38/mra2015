@@ -55,7 +55,7 @@
 
 
 
-                            <button href="#" class="scrollToTop">Back To Top</button>
+                           <!-- DISABLED SCROLLTOTOP BUTTON  <button href="#" class="scrollToTop">Back To Top</button>  -->
 
 						</div> <!-- end #inner-header -->
 
