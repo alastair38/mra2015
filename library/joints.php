@@ -121,9 +121,6 @@ function joints_scripts_and_styles() {
     // adding Foundation scripts file in the footer
     wp_enqueue_script( 'foundation-js', get_template_directory_uri() . '/bower_components/foundation/js/foundation.js', array( 'jquery' ), $theme_version, true );
 
-    //adding joints script file in the footer
-    wp_enqueue_script( 'joints-js', get_template_directory_uri() . '/library/js/scripts.js', array( 'jquery' ), $theme_version, true );
-
     //adding cookies script file in the footer
     // wp_enqueue_script( 'cookies-js', get_template_directory_uri() . '/library/js/cookies.js', array( 'jquery' ), $theme_version, true );
 

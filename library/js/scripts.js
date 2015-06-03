@@ -83,11 +83,6 @@ jQuery(document).ready(function($) {
 	w.addEventListener( "devicemotion", checkTilt, false );
 })( this );
 
-// call cookieBar script
-jQuery(document).ready(function() {
-	jQuery.cookieBar();
-});
-
 jQuery(document).ready(function(){
 
 	//Check to see if the window is top if not then display button
