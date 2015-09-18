@@ -308,14 +308,14 @@ HEADER STYLES
 
 h1.title {
     font-size: 1em;
-    font-weight: normal;
+    font-weight: bold;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .title a {
-    color: $charcoal;
-    font-family: 'Arial Narrow';
+    color: $aluminum;
+    font-family: $font-family-site-title;
 }
 
 
@@ -329,7 +329,7 @@ NAVIGATION STYLES
 	}
 }
 
-h3.site-title{
+h1.site-title{
     background: url('http://michaelroperarchitect.co.uk/wp-content/uploads/2014/05/pnglogo.png') no-repeat;
     background-position-y: -5px;
     text-indent: -9999px;
@@ -888,7 +888,8 @@ FOOTER STYLES
 .home #footerLogo {
     height: 52px;
     background: url('http://michaelroperarchitect.co.uk/wp-content/uploads/2014/05/professionalbodies.jpg') no-repeat;
-    background-position-x: 10px;
+    background-position-x: 0px;
+    background-size: contain;
 }
 
 	/*

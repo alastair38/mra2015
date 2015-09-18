@@ -33,6 +33,10 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 
+.contain-to-grid {
+      margin-top: 30px !important;
+}
+
 /*********************
 SIDEBARS & ASIDES
 *********************/
@@ -160,6 +164,11 @@ you'll probably need to do quite a bit
 of overriding here if you styled them for
 mobile. Make sure to double check these!
 */
+
+.home #footerLogo {
+    background-position-x: 10px;
+}
+
 .footer-links {
 	ul {
 		li {

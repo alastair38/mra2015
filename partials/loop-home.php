@@ -6,7 +6,7 @@
 			<h1 class="screen-reader-text"><?php the_title(); ?></h1>
 		</header> <!-- end article header -->
 
-        <hr>
+         <hr class="show-for-large-up">
 
         <div id="fpImg" class="large-6 medium-6 small-12 columns first" role="image">
 			<?php the_post_thumbnail('full'); ?>

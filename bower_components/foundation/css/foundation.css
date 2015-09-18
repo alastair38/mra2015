@@ -4429,7 +4429,7 @@ meta.foundation-mq-topbar {
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   background: #FFFFFF; }
   .contain-to-grid .top-bar {

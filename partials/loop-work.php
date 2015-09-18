@@ -3,7 +3,7 @@
 	<article id="post-<?php the_ID(); ?>" <?php post_class(''); ?> role="article" itemscope itemtype="http://schema.org/WebPage">
 
 
-        <hr>
+         <hr class="show-for-large-up">
 
         <div id="workImg" class="large-6 medium-6 small-12 columns" role="image">
 			<?php get_template_part( 'partials/loop', 'slider' ); ?>

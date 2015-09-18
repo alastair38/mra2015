@@ -4869,7 +4869,7 @@ meta.foundation-mq-topbar {
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
-  margin-top: 30px;
+  margin-top: 0px;
   width: 100%;
   background: #FFFFFF; }
   .contain-to-grid .top-bar {
@@ -6987,13 +6987,13 @@ HEADER STYLES
 
 h1.title {
   font-size: 1em;
-  font-weight: normal;
+  font-weight: bold;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
 .title a {
-  color: #555555;
-  font-family: 'Arial Narrow'; }
+  color: #949494;
+  font-family: "Arial Narrow", Arial, sans-serif; }
 
 /*********************
 NAVIGATION STYLES
@@ -7001,7 +7001,7 @@ NAVIGATION STYLES
 .top-bar .title-area {
   z-index: 1; }
 
-h3.site-title {
+h1.site-title {
   background: url("http://michaelroperarchitect.co.uk/wp-content/uploads/2014/05/pnglogo.png") no-repeat;
   background-position-y: -5px;
   text-indent: -9999px;
@@ -7010,7 +7010,7 @@ h3.site-title {
   float: left;
   margin-bottom: 0;
   padding: 0; }
-  h3.site-title a {
+  h1.site-title a {
     color: #949494; }
 
 .off-canvas-list ul {
@@ -7313,7 +7313,8 @@ FOOTER STYLES
 .home #footerLogo {
   height: 52px;
   background: url("http://michaelroperarchitect.co.uk/wp-content/uploads/2014/05/professionalbodies.jpg") no-repeat;
-  background-position-x: 10px; }
+  background-position-x: 0px;
+  background-size: contain; }
 
 /*
 if you checked out the link above:
@@ -7433,6 +7434,9 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
+  .contain-to-grid {
+    margin-top: 30px !important; }
+
   /*********************
   SIDEBARS & ASIDES
   *********************/
@@ -7462,6 +7466,9 @@ you can add resource intensive styles.
   of overriding here if you styled them for
   mobile. Make sure to double check these!
   */
+  .home #footerLogo {
+    background-position-x: 10px; }
+
   .footer-links ul li {
     /*
     be careful with the depth of your menus.
