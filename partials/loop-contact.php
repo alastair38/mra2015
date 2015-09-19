@@ -28,8 +28,8 @@
                 <span itemprop="postalCode">EH40 3DB</span>
             </span>
             <p><span itemprop="telephone" content="07966897326">07966897326</span>
-            <span itemprop="telephone" content="01620 860729">01620 860729</span></p>
-            <p><a title="Email Michael Roper" href="mailto:mike.roper@mac.com" target="_blank" itemprop="email">Email</a></p>
+            <span itemprop="telephone" content="01620 860729">01620 861737</span></p>
+            <p><a title="Email Michael Roper" href="mailto:mike.roper@mac.com" target="_blank" itemprop="email">Email Michael</a></p>
 
             </div>
 
