@@ -18,18 +18,18 @@
 
 		    <div class="address" itemscope itemtype="http://schema.org/LocalBusiness">
 
-            <span itemprop="name">Michael Roper Architect</span>
+            <span itemprop="name"><?php bloginfo('name'); ?></span>
 
             <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                <span itemprop="streetAddress">1 Lauderside</span>
-                <span itemprop="streetAddress">Lauder Place</span>
-                <span itemprop="addressLocality">East Linton</span>
+                <span itemprop="streetAddress"><?php echo esc_html (get_field('street_address')); ?></span>
+                <span itemprop="streetAddress"><?php echo esc_html (get_field('street_address_2')); ?></span>
+                <span itemprop="addressLocality"><?php echo esc_html (get_field('town')); ?></span>
 
-                <span itemprop="postalCode">EH40 3DB</span>
+                <span itemprop="postalCode"><?php echo esc_html (get_field('post_code')); ?></span>
             </span>
-            <p><span itemprop="telephone" content="07966897326">07966897326</span>
-            <span itemprop="telephone" content="01620 860729">01620 861737</span></p>
-            <p><a title="Email Michael Roper" href="mailto:mike.roper@mac.com" target="_blank" itemprop="email">Email Michael</a></p>
+            <p><span itemprop="telephone" content="<?php echo esc_html (get_field('mobile')); ?>"><?php echo esc_html (get_field('mobile')); ?></span>
+            <span itemprop="telephone" content="<?php echo esc_html (get_field('landline')); ?>"><?php echo esc_html (get_field('landline')); ?></span></p>
+            <p><a title="Email Michael Roper" href="mailto:<?php echo esc_url (get_field('email')); ?>" target="_blank" itemprop="email">Email Michael</a></p>
 
             </div>
 
