@@ -29,7 +29,7 @@
             </span>
             <p><span itemprop="telephone" content="<?php echo esc_html (get_field('mobile')); ?>"><?php echo esc_html (get_field('mobile')); ?></span>
             <span itemprop="telephone" content="<?php echo esc_html (get_field('landline')); ?>"><?php echo esc_html (get_field('landline')); ?></span></p>
-            <p><a title="Email Michael Roper" href="mailto:<?php echo esc_url (get_field('email')); ?>" target="_blank" itemprop="email">Email Michael</a></p>
+            <p><a title="Email Michael Roper" href="mailto:<?php echo esc_html (get_field('email')); ?>" target="_blank" itemprop="email">Email Michael</a></p>
 
             </div>
 
