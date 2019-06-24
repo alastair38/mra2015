@@ -125,7 +125,7 @@ function joints_scripts_and_styles() {
     // wp_enqueue_script( 'cookies-js', get_template_directory_uri() . '/library/js/cookies.js', array( 'jquery' ), $theme_version, true );
 
       //adding slick.js cdn script file in the footer
-    //wp_enqueue_script( 'slick-js', 'http://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js', array( 'jquery' ), $theme_version, true );
+    //wp_enqueue_script( 'slick-js', 'https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js', array( 'jquery' ), $theme_version, true );
 
        //adding slick.js cdn script file in the footer
      wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/library/js/slick.js', array( 'jquery' ), $theme_version, true );
@@ -135,7 +135,7 @@ function joints_scripts_and_styles() {
 
 
      // register google fonts stylesheet
-     wp_enqueue_style( 'google fonts', 'http://fonts.googleapis.com/css?family=Lato:100,300,400', array(), $theme_version, 'all' );
+     wp_enqueue_style( 'google fonts', 'https://fonts.googleapis.com/css?family=Lato:100,300,400', array(), $theme_version, 'all' );
 
     // register main stylesheet
     wp_enqueue_style( 'joints-stylesheet', get_template_directory_uri() . '/library/css/style.css', array(), $theme_version, 'all' );
