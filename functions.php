@@ -8,7 +8,7 @@ INCLUDE NEEDED FILES
 require_once(get_template_directory().'/library/joints.php');
 
 // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-include_once(get_template_directory().'/bower_components/acf/acf.php' );
+// include_once(get_template_directory().'/bower_components/acf/acf.php' );
 
 require_once(get_template_directory().'/library/custom-post-type.php'); // you can disable this if you like
 
